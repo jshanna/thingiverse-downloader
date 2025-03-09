@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: thingiverse-downloader
     ports:
-      - "8501:8501"
+      - "80:8501"
     volumes:
       # Mount the downloads directory to persist models between container restarts
       - ./downloads:/app/downloads

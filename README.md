@@ -44,7 +44,7 @@ Alternatively, you can run the application using Docker:
 docker-compose up -d
 ```
 
-3. The application will be available at http://localhost:8501
+3. The application will be available at http://localhost
 4. To stop the container:
 
 ```bash
@@ -63,7 +63,7 @@ streamlit run app.py
 
 ### Running with Docker
 
-1. Simply access http://localhost:8501 in your browser after starting the container
+1. Simply access http://localhost in your browser after starting the container
 2. Downloaded models will be stored in the ./downloads directory on your host machine
 
 2. Use the navigation buttons in the sidebar to switch between:
