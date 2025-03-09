@@ -1,0 +1,44 @@
+# Version control
+.git
+.gitignore
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Docker files (no need to copy these into the build context)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Local development
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Downloaded models (these will be volume-mounted)
+downloads/

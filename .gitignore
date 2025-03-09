@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Streamlit specific
+.streamlit/
+
+# Downloaded models and data
+downloads/
+
+# Project specific folders that might contain large files
+*.stl
+*.obj
+*.3mf
+*.zip
+
+# Cache folders
+.pytest_cache/
+.coverage
+htmlcov/
