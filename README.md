@@ -99,3 +99,17 @@ streamlit run app.py
 - Models are organized in a category-based file structure
 - 3D rendering uses Trimesh and Plotly for high-quality visualization
 - The code follows modern Python practices with type hints and modular structure
+
+## AI-Generated Code
+
+This project was developed with the assistance of AI technology:
+
+- **AI Platform**: Codeium Cascade AI
+- **Development Date**: March 2025
+- **Features Enhanced by AI**: 
+  - 3D model rendering using Trimesh
+  - User interface refinements
+  - Docker configuration
+  - Documentation
+
+While AI-assisted, all code has been reviewed for functionality, security, and performance. Contributions and improvements from the community are welcome.
